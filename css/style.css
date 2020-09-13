@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    padding-top: 30px;
+    display: inline-block;
+    border-bottom: 2px solid rgba(182, 121, 128 , 1);
+    margin-bottom: 20px;
+}
+p{
+    width: 80%;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #4c4a4a;
+    margin-bottom: 37px;
+}
+/* Start Header */
+
+/* Start Navbar */
+.bg-light{
+    background: #563c56!important;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #E1DBDB;
+    padding-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #946399;
+    color: #fff;
+   
+}
+/* .navbar-light .navbar-nav .active>.nav-link{
+    background-color: #946399;
+    color: #fff;
+    border-bottom: 2px solid #9e9aa0;
+}  */
+/* End Navbar */
+
+/* Start Welcom */
+.welcom
+{
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(15, 5, 20, 0.4),rgba(15, 5, 20, 0.3)) , url(../imgs/insta-gallery-3-original.jpg);
+    background-position:top center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.welcom .mony{
+    padding: 280px 0px 220px;
+}
+.welcom .mony h2{
+    font-size: 50px;
+}
+.welcom .mony span{
+    color: #EB233C;
+}
+.welcom .mony .button{
+    border: #b3acb3 1px solid;
+    padding: 12px 35px;
+    border-radius: 25px;
+    margin-top: 36px;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(88 50 88);
+    color: rgb(255, 255, 255);
+}
+.welcom .mony .button:hover{
+    text-decoration: none;
+    background-color: rgb(165, 47, 167, 0.6 );
+    color:  white;
+    border:#563c56 1px solid;
+} 
+@media(max-width:670px){
+    .welcom .mony h2{
+        font-size: 43px;
+    }
+}
+@media(max-width:576px){
+    .welcom .mony h2{
+        font-size: 35px;
+    }
+
+    .welcom .mony .button{
+        padding: 10px 25px
+    }
+}
+/* End Welcom */
+
+/* End Header */
+
+/* Start About */
+.about{
+    padding: 10px 0px 20px ;
+}
+/* .about p{
+    width: 80%;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #4c4a4a;
+    margin-bottom: 37px;
+} */
+.about .p2{
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: justify;
+}
+.about span{
+    margin-left: 11%;
+    margin-right: 20%;
+    font-size: 18px;
+}
+.about .h1,
+.about .h2{
+    background-color: rgb(76 ,26, 31, 0.8);
+    width: 206px;
+    margin-left: 10%;
+    padding-top: 8px;
+    border-radius: 12px;
+}
+.about .h1{
+    width: 255px;
+    margin-bottom: 15px;
+}
+@media(max-width:700px){
+    .about h3{
+         font-size: 22px;
+    }
+    .about p{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+@media(max-width:1200px){
+    .about .p2{
+        font-size: 16px;
+        word-spacing: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .about img{
+        width: 98%;
+        margin-top: 9px;
+        height: 97%;
+    }
+    .about span{
+        margin-left: 0px;
+        margin-right: 25%;
+        font-size: 17px;
+    } 
+    .about .h1,
+    .about .h2{
+        width: 225px;
+        margin-left: 0px;
+        padding-top: 3px;
+        margin-bottom: 5px;
+    }
+    .about .h1{
+        width: 255px;
+    }
+}
+@media(max-width:800px){
+    .about img{
+        width: 95%;
+    }
+    .about .p2{
+        margin: 26px 0px 21px 0px;
+        width: 90%;
+    }
+}
+/* End About */
+
+
+/* Start Services */
+.services{
+    background-color: rgba(235, 213, 235, 0.12);
+    margin-top: 30px;
+}
+.services i{
+    padding: 10px 0px 15px;
+    color: rgb(76 ,26, 31, 1);
+}
+.services p{
+    color: #2d2b2b;
+}
+/* End Services */
+
+/* Start Footer */
+footer{
+    margin-top: 20px;
+}
+footer p{
+    font-size: 20px;
+}
+footer .name{
+    color: #EB233C;
+    font-weight: bold;
+}
+footer a{
+    background-color: #4c1a1f;
+    color: white;
+    border-radius: 100%;
+    width: 35px;
+    padding: 10px 10px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-top: 17px;
+    transition: 0.5s all ease-in-out;
+}
+footer a:hover{
+    background-color: #635163;
+    color: white;
+    text-decoration: none;
+}
+/* End Footer */
